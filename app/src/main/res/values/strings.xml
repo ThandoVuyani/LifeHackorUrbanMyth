@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LifeHack or UrbanMyth</string>
+    <string name="hack">HACK</string>
+    <string name="myth">MYTH</string>
+    <string name="quiz">QUIZ</string>
+    <string name="next">NEXT</string>
+
+    <string name="correct_feedback">Correct! %1$s</string>
+    <string name="incorrect_feedback">Incorrect! %1$s</string>
+
+    <string name="score_format">SCORE : %1$d/%2$d</string>
+    <string name="msg_master">Master Hacker!</string>
+    <string name="msg_stay_safe">STAY SAFE Online!</string>
+
+    <string name="hack_toothpaste_statement">Toothpaste fixes scratched screens.</string>
+    <string name="hack_toothpaste_explanation">Often makes the screen worse.</string>
+    <string name="hack_keyboard_statement">Using keyboard shortcut boosts productivity</string>
+    <string name="hack_keyboard_explanation">Shortcuts save time and reduce effort.</string>
+    <string name="hack_onions_statement">Chilling onions before cutting them reduces eye-tearing.</string>
+    <string name="hack_onions_explanation">Slows down the release of irritating gases.</string>
+    <string name="hack_battery_statement">Charging your phone overnight ruins the battery.</string>
+    <string name="hack_battery_explanation">Modern cellphones are designed to automatically stop charging once full.</string>
+    <string name="hack_salt_statement">Salt can be used to remove red wine stains.</string>
+    <string name="hack_salt_explanation">The salt absorbs the wine liquid.</string>
+    <string name="hack_cart_statement">Leaving items in your cart forces a discount.</string>
+    <string name="hack_cart_explanation">It might work on some websites but many simple dont care.</string>
+</resources>

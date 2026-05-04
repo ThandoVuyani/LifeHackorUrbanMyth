@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonHack"
+        android:layout_width="155dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="373dp"
+        android:background="@drawable/hackbtn"
+        android:text="@string/hack"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="2dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonMyth"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="373dp"
+        android:background="@drawable/mythbtn"
+        android:text="@string/myth"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#03A9F4"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/textQuiz"
+        android:layout_width="166dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="630dp"
+        android:background="#37A6D9"
+        android:fontFamily="@font/climate_crisis"
+        android:text="@string/quiz"
+        android:textAlignment="center"
+        android:textColor="#FBF5F5"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textFeedback"
+        android:layout_width="405dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/feedbackview"
+        android:gravity="center"
+        android:textColor="#E00E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="400dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="483dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="59dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
